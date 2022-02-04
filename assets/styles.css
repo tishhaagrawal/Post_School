@@ -1,31 +1,47 @@
-h2{font-family:'Poppins', sans-serif;color:#1c4587; font-size: 3rem;font-weight: bolder;}
-h3{font-family:'Poppins', sans-serif;color:#1c4587; font-weight: bold; font-size: 2rem;}
-h5{font-family:'Poppins', sans-serif;color:#1c4587; font-weight: bold; font-size: 1.4rem;}
+h2{font-family:'Poppins', sans-serif;color:#1c4587; font-size: 2.7rem;font-weight: bolder;}
+h3{font-family:'Poppins', sans-serif;color:#1c4587; font-weight: bold; font-size: 1.8rem;}
+h5{font-family:'Poppins', sans-serif;color:#1c4587; font-weight: bold; font-size: 1.2rem;}
 h4{font-family:'Poppins', sans-serif;color:#1c4587; font-weight: bold; font-size: 1.6rem;}
-p{font-family:'Poppins', sans-serif;line-height:1.5;}
-ul{font-family:'Poppins', sans-serif;line-height:1.5;}
+p{font-family:'Poppins', sans-serif; line-height:1.5;}
+li{font-family:'Poppins', sans-serif; line-height:2;}
 hr{margin-top: 3.5%;}
+ul{padding-left: 3vh; padding-top:2vh; }
 
-.top{background-color:#fef0e8;margin-top: 3%;}
+.navbar{padding: 0 ;}
 .navbar-light{background-color: white;}
+.logo img{width: 2.7vw; height: 6vh; margin: 0 0 0 3vh;}
+.nav-item{margin: 0 5px 0;}
+.navbar-nav{padding-top: 0;}
+.top{background-color:#fef0e8;margin-top:5%; padding: 0 10%;}
 .home{font-weight: bold;}
-.main_heading{margin-top: 3%; text-align: center; font-family: 'Poppins', sans-serif; font-weight: 800;font-size: 3.5rem;
+.main_heading{margin: 5% auto; text-align: center; font-family: 'Poppins', sans-serif; font-weight: 800;font-size: 3rem;
 color: #1c4587;text-decoration: underline;}
-.profile_picture {width: 85%; height: 90%; margin-top: 6%;}
+.profile_picture{padding: 0;}
+.profile_picture img{max-width: 100%; max-height: 100%;padding: 3vh 0;}
 .emphasize{font-weight: bold;}
-.top-content{margin-top: 3%; padding-left: 0;}
+.top-content{margin-top:3%; padding-left:3%;}
+.intro{margin-bottom: 3%;}
+.reason{margin:3% auto;}
 
 
 
-.about_course{margin-top: 3%;}
-.editing_workspace{width: 85%; height: 90%;}
+.about_course{margin-top: 3%;padding: 0 10%;}
+.abt_course_list{padding-top:0;}
+.editing_content p{margin-bottom:0;}
+.editing_content h3{padding-bottom: 3vh;}
+.editing_workspace img{width: auto; height: auto; max-width: 100%; max-height: 100%;}
+.editing_content{padding-right: 20vh;}
 
-.course_gist{margin-top: 2%;}
+.course_gist{margin-top: 3%;padding: 0 10%;}
 
-.outcome{margin-top: 3%;}
-.editing_software{width: 85%; height: 90%;}
+.outcome{margin-top: 3%;padding: 0 10%;}
+.editing_software img{height: 40vh; max-width: 100%; max-height: 100%; padding-right: 0;}
+.editing_software {padding: 0;}
+.outcome_content p{padding-left: 5vh;}
+.outcome_content h2{padding-left: 5vh;}
+.outcome_content h3{padding-left: 5vh;}
 
-.course_typ{margin-top: 2%; background-color:#fef0e8; }
+.course_typ{margin-top: 2%; background-color:#fef0e8;padding: 0 10%; }
 .notice{font-family:'Poppins', sans-serif;font-weight: bold;}
 .crash_course{width: 80%; height: 60%;}
 .advance{width: 80%; height: 60%;}
@@ -33,6 +49,9 @@ color: #1c4587;text-decoration: underline;}
 
 .training{width: 80%; height: 60%;}
 .download{width: 80%; height: 60%;}
+
+.social_media{padding: 0 10%;}
+.contact_us{padding: 0 10%;}
 
 .footer{background-color: #c6ddea;text-align: center; padding: 2.5% 0;}
 .end_line{font-family:'Poppins', sans-serif;font-style: italic;font-weight:500; margin-bottom:0;}
