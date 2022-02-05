@@ -142,10 +142,10 @@
   <hr class="divider">
 
   <section class="course_typ">
-    <div class="container-fluid">
+    <div class="container-fluid course_options">
       <div class="row">
-        <div class="col-md-6">
-          <img class="crash_course" src="assets/images/crash_course.jpg" alt="Crash-Course">
+        <div class="col-md-6 crash_course">
+          <img src="assets/images/crash_course.jpg" alt="Crash-Course">
           <h4>Crash Course</h4>
           <ul type="square">
             <li>30 Hours Classroom Programme.</li>
@@ -153,11 +153,13 @@
             <li>You'll learn about everything you'll need to
               start your journey in the industry and will learn to work on DaVinci Resolve, a fast-catching, industry-standard software</li>
           </ul>
-          <button type="button" name="button" class="btn btn-primary btn-lg btn-block">Join Course</button>
-          <p>REGISTRATIONS OPEN</p>
+          <div class="d-grid gap-2">
+            <button type="button" name="button" class="btn btn-primary">Join Course</button>
+          </div>
+          <p class="notice">REGISTRATIONS OPEN</p>
         </div>
-        <div class="col-md-6">
-          <img class="advance" src="assets/images/advance.jpg" alt="Advance-Course">
+        <div class="col-md-6 advance">
+          <img src="assets/images/advance.jpg" alt="Advance-Course">
           <h4>Advance Course</h4>
           <ul type="square">
             <li>Get down & granular about color grading</li>
@@ -165,23 +167,29 @@
             <li>How & when to LUTs properly</li>
             <li>Understand the basics of color managed image processing pipeline</li>
           </ul>
+          <div class="d-grid gap-2 course_content_btn">
           <button type="button" name="button" class="btn btn-primary">See Course Content</button>
-          <p>REGISTRATION WILL START SOON</p>
+          </div>
+          <p class="notice">REGISTRATION WILL START SOON</p>
         </div>
       </div>
       <hr>
       <div class="row">
-        <div class="col-md-6">
-          <img class="training" src="assets/images/free_training.jpg" alt="Free-Training">
+        <div class="col-md-6 training">
+          <img src="assets/images/free_training.jpg" alt="Free-Training">
           <h4>Free Training</h4>
             <p>Check here for upcoming free training & webinar</p>
-          <button type="button" name="button" class="btn btn-primary">Watch</button>
+            <div class="d-grid gap-2">
+              <button type="button" name="button" class="btn btn-primary">Watch</button>
+            </div>
         </div>
-        <div class="col-md-6">
-          <img class="download" src="assets/images/free_downloads.jpg" alt="Free-Download">
+        <div class="col-md-6 download">
+          <img src="assets/images/free_downloads.jpg" alt="Free-Download">
           <h4>Free Download</h4>
             <p>Hacks, plugins & shortcuts, all free to download</p>
-          <button type="button" name="button" class="btn btn-primary">Get</button>
+            <div class="d-grid gap-2">
+              <button type="button" name="button" class="btn btn-primary">Get</button>
+            </div>
         </div>
       </div>
     </div>
@@ -191,7 +199,7 @@
     <div class="container-fluid">
       <div class="row">
         <div>
-          <h5>Checkout or Follow us on Instagram</h5>
+          <h5 class="Instagram">Checkout or Follow us on Instagram</h5>
           <!-- link Instagram -->
         </div>
       </div>
