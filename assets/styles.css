@@ -2,7 +2,7 @@ body{font-family:'Poppins', sans-serif;}
 h1, h2, h3, h4, h5{color:#1c4587; font-weight: bold;}
 h2{font-size: 2.7rem;font-weight: bolder;}
 h3{font-weight: bold; font-size: 1.8rem;}
-h5{font-size: 1.2rem;}
+h5{font-size: 1.1rem;}
 h4{font-size: 1.6rem;}
 p{line-height:1.5;}
 li{line-height:2;}
@@ -29,7 +29,7 @@ ul{padding-left: 3vh; padding-top:2vh;}
 .about_course{margin: 3% 0;padding: 0 10%;}
 .abt_course_list{padding-top:0; padding-left: 4vh;}
 .course_description p{margin-bottom:0;}
-.course_description h3{padding-bottom: 3vh;}
+.course_description h3{padding-bottom: 3vh; font-size: 2.5rem;}
 .editing_workspace img{width: auto; height: auto; max-width: 100%; max-height: 100%;}
 .editing_workspace{padding:0;}
 .course_description{padding: 0  20vh 0 0 ;}
@@ -72,3 +72,26 @@ ul{padding-left: 3vh; padding-top:2vh;}
 .footer{background-color: #c6ddea;text-align: center; padding: 2.5% 0;}
 .end_line{font-family:'Poppins', sans-serif;font-style: italic;font-weight:500; margin-bottom:0;}
 .closure{color:#a09f9c;}
+
+/* Common CSS for other pages */
+.sub_page_heading{margin: 7% auto 5%; text-align: center;font-weight: 600;font-size: 3rem;}
+.page_alignment{margin-top:5%; padding: 0 15%;}
+
+
+/* FAQ PAGE */
+
+
+/* Free Training Page */
+.webinar_notice p{padding-top: 1.5vh;}
+.previous_content{padding: 0 15%;}
+.youtube_videos{margin: 4vh 0;}
+.google_form{padding: 2% 15%;}
+
+
+/* Beginner course page */
+.beginner_course_content h4{margin-bottom:7vh;}
+.beginner_course_content ul{padding: 0;margin:1.5vh 0.7vh;}
+.know_more{padding: 0 15%;margin: 8vh 0;}
+.beginner_course_details{margin-top:5%; padding: 0 15%;}
+.beginner_course_details img{width: auto; height: auto; max-width: 100%; max-height: 100%;}
+.registeration_form {margin:5% 0; padding: 0 15%;}
