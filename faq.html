@@ -9,11 +9,17 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+  <!-- JavaScript files -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
   <!-- style sheet -->
   <link rel="stylesheet" href="assets/styles.css">
 
   <title>FAQ</title>
+
+  <!-- icons -->
   <link rel="icon" href="assets/images/favicon.ico">
+  <script src="https://kit.fontawesome.com/1f4df134e8.js" crossorigin="anonymous"></script>
 
   <!-- Font Families -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,7 +31,7 @@
   <nav class="shadow-sm navbar navbar-expand-lg navbar-light fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand logo" href="index.html">
-        <img class="d-inline-block align-text-top" src="assets/images/Post-School_logo.jpg" alt="" width="35" height="30" >
+        <img class="d-inline-block align-text-top" src="assets/images/Post-School_logo.jpg" alt="" width="35" height="30">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -33,22 +39,25 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Post School</a>
+            <a id="post_school" class="nav-link" aria-current="page" href="index.html">Post School</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="free_training.html">Free Training</a>
+            <a id="free_training" class="nav-link" aria-current="page" href="free_training.html">Free Training</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="beginner_course.html">Beginner Course</a>
+            <a id="beginner_course" class="nav-link" aria-current="page" href="beginner_course.html">Beginner Course</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="advance_course.html">Advance Course</a>
+            <a id="advance_course" class="nav-link" aria-current="page" href="advance_course.html">Advance Course</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="download.html">Download</a>
+            <a id="download" class="nav-link" href="download.html">Download</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="faq.html">FAQ</a>
+            <a id="faq" class="nav-link" href="faq.html">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a id="search" class="nav-link" href="#" type="button"><i class="fa-solid fa-magnifying-glass"></i></a>
           </li>
         </ul>
       </div>
@@ -74,11 +83,13 @@
         </ul>
         <h5>4. How it is better than YouTube videos?</h5>
         <ul type="square">
-          <li>YouTube videos mostly teach you/explain you on dummy or demo projects. Working on few clips is one thing but working on more than 2000 shots is completely different ball game. Here I teach you things that are industry standard & train you on real-world projects.</li>
+          <li>YouTube videos mostly teach you/explain you on dummy or demo projects. Working on few clips is one thing but working on more than 2000 shots is completely different ball game. Here I teach you things that are industry standard & train
+            you on real-world projects.</li>
         </ul>
         <h5>5. I don't have money, can I still join?</h5>
         <ul type="square">
-          <li>Unfortunately, no, but don't worry. You can always subscribe to us so that when we release free content/webinar (which we will in regular interval) you are notified. Also, the batches run throughout the year, you can come & join anytime you like, you won't miss out on anything.</li>
+          <li>Unfortunately, no, but don't worry. You can always subscribe to us so that when we release free content/webinar (which we will in regular interval) you are notified. Also, the batches run throughout the year, you can come & join anytime
+            you like, you won't miss out on anything.</li>
         </ul>
       </div>
     </div>
@@ -89,16 +100,15 @@
     <p class="closure">SPOTLIGHT © 2022</p>
   </section>
 
-  <!-- Optional JavaScript; choose one of the two! -->
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-  <!-- Option 2: Separate Popper and Bootstrap JS -->
-  <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
+  <script type="text/javascript">
+    $(document).ready(function() {
+      document.getElementById("faq").classList.add("active");
+    });
+  </script>
 </body>
 
 </html>

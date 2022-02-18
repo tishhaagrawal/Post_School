@@ -9,9 +9,18 @@ li{line-height:2;}
 hr{margin: 1% 10%; height: 3px; background-color: grey;}
 ul, ol{padding-left: 3vh; padding-top:2vh;}
 
+/* Common CSS for other pages */
+.sub_page_heading{margin: 7% auto 5%; text-align: center;font-weight: 600;font-size: 3rem;}
+.page_alignment{margin-top:5%; padding: 0 15%;}
+.form_new_tab{background-color: #FBF8F1; position: absolute; left: 80%; display: none;}
+.payment_btn{width: 100%; margin: 5vh 0;}
+.active{font-weight: bolder;}
+
+
+
 .navbar{padding:0;}
 .navbar-light{background-color:#fff;}
-.logo img{width: 2.7vw; height: 6vh; margin: 0 0 0 3vh;}
+.logo img{max-width: 100%; max-height: 100%;margin: 0 0 0 3vh;}
 .nav-item{margin: 0 5px 0;}
 .navbar-nav{padding-top: 0;}
 .main_heading{margin: 7% auto 5%; text-align: center;font-weight: 800;font-size: 3rem;text-decoration: underline;}
@@ -21,6 +30,7 @@ ul, ol{padding-left: 3vh; padding-top:2vh;}
 .emphasize{font-weight: bold;}
 .top-content{padding-top:3%; padding-left:3%;}
 .top_heading{margin-bottom: 3%;}
+
 
 
 
@@ -72,12 +82,6 @@ ul, ol{padding-left: 3vh; padding-top:2vh;}
 .end_line{font-family:'Poppins', sans-serif;font-style: italic;font-weight:500; margin-bottom:0;}
 .closure{color:#a09f9c;}
 
-/* Common CSS for other pages */
-.sub_page_heading{margin: 7% auto 5%; text-align: center;font-weight: 600;font-size: 3rem;}
-.page_alignment{margin-top:5%; padding: 0 15%;}
-.form_new_tab{background-color: #FBF8F1; position: absolute; left: 80%; display: none;}
-.payment_btn{width: 100%; margin: 5vh 0;}
-
 /* FAQ PAGE */
 
 
@@ -107,7 +111,11 @@ ul, ol{padding-left: 3vh; padding-top:2vh;}
 .advance_course_details img{width: 110vh; height: 60vh; max-width: 100%; max-height: 100%;}
 .advance_course_details{margin-top:5%; padding: 0 15%;}
 
-#advance_plugins{margin: 2% 0 3%; background-color:#fef0e8;padding: 2% 15%; text-align: center;}
+#advance_plugins{margin: 2% 0 3%; background-color:#fef0e8; padding: 2% 15%; text-align: center;}
 .plugin_detail img{width: 95%; height: 65%;}
 .plugin_detail h4{padding: 2vh 0 3vh;text-align: center; margin-top: 1vh;font-size:1.5rem;}
 .registeration_soon{margin:5% 0; padding: 0 15%; font-style: italic;}
+
+
+/* payment page */
+.qr_code img{max-width: 100%; max-height: 100%; padding-top:5vh;}

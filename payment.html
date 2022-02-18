@@ -16,6 +16,7 @@
 
   <!-- icons -->
   <link rel="icon" href="assets/images/favicon.ico">
+  <script src="https://kit.fontawesome.com/1f4df134e8.js" crossorigin="anonymous"></script>
 
 
   <!-- Font Families -->
@@ -28,7 +29,7 @@
   <nav class="shadow-sm navbar navbar-expand-lg navbar-light fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand logo" href="index.html">
-        <img class="d-inline-block align-text-top" src="assets/images/Post-School_logo.jpg" alt="" width="35" height="30" >
+        <img class="d-inline-block align-text-top" src="assets/images/Post-School_logo.jpg" alt="" width="35" height="30">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -36,22 +37,25 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Post School</a>
+            <a id="post_school" class="nav-link active" aria-current="page" href="index.html">Post School</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="free_training.html">Free Training</a>
+            <a id="free_training" class="nav-link" aria-current="page" href="free_training.html">Free Training</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="beginner_course.html">Beginner Course</a>
+            <a id="beginner_course" class="nav-link" aria-current="page" href="beginner_course.html">Beginner Course</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="advance_course.html">Advance Course</a>
+            <a id="advance_course" class="nav-link" aria-current="page" href="advance_course.html">Advance Course</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="download.html">Download</a>
+            <a id="download" class="nav-link" href="download.html">Download</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="faq.html">FAQ</a>
+            <a id="faq" class="nav-link" href="faq.html">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a id="search" class="nav-link" href="#" type="button"><i class="fa-solid fa-magnifying-glass"></i></a>
           </li>
         </ul>
       </div>
@@ -60,30 +64,30 @@
 
   <h1 class="sub_page_heading"> Payment </h1>
 
-<section class="page_alignment">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-9 webinar_notice">
-        <h4>Payments are accepted though all UPI platforms.</h4>
-        <h5>Until we integrate an unified payment gateway kindly pay by scanning the given QR code.</h5>
-        <p>This payment option is completely safe & secured.</p>
-        <p>I, Aniket Bhattacharjee, the creator & owner of this course have set this payment up. I certify & take responsibility for all the payments done for this course though this website, via the attached QR code. </p>
-        <h5>Before you pay:</h5>
-        <ol>
-          <li>The payment has to be made in full i.e. INR 15,000.</li>
-          <li>You cannot edit the amount.</li>
-          <li>You can either scan the code (if you're on computer) or you can download this QR code & pay using phone.</li>
-          <li>After you pay, you'll receive a confirmation email shortly.</li>
-          <li>The email will contain a receipt of your payment & your credentials to enter the classroom program.</li>
-        </ol>
-        <a class="btn btn-primary payment_btn" href="index.html" type="button">Payment Completed</a>
+  <section class="page_alignment">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-8 webinar_notice">
+          <h4>Payments are accepted though all UPI platforms.</h4>
+          <h5>Until we integrate an unified payment gateway kindly pay by scanning the given QR code.</h5>
+          <p>This payment option is completely safe & secured.</p>
+          <p>I, Aniket Bhattacharjee, the creator & owner of this course have set this payment up. I certify & take responsibility for all the payments done for this course though this website, via the attached QR code. </p>
+          <h5>Before you pay:</h5>
+          <ol>
+            <li>The payment has to be made in full i.e. INR 15,000.</li>
+            <li>You cannot edit the amount.</li>
+            <li>You can either scan the code (if you're on computer) or you can download this QR code & pay using phone.</li>
+            <li>After you pay, you'll receive a confirmation email shortly.</li>
+            <li>The email will contain a receipt of your payment & your credentials to enter the classroom program.</li>
+          </ol>
+          <a class="btn btn-primary payment_btn" href="index.html" type="button">Payment Completed</a>
+        </div>
+        <div class="col-lg-4 qr_code">
+          <img src="assets/images/QR_Code.jpg" alt="">
+        </div>
       </div>
-      <div class="col-lg-3">
-
-      </div>
-  </div>
-  </div>
-
+    </div>
+  </section>
   <hr>
 
 
@@ -92,16 +96,9 @@
     <p class="closure">SPOTLIGHT © 2022</p>
   </section>
 
-  <!-- Optional JavaScript; choose one of the two! -->
-
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-  <!-- Option 2: Separate Popper and Bootstrap JS -->
-  <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
 </body>
 
 </html>
