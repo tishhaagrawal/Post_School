@@ -71,7 +71,8 @@ ul, ol{padding-left: 3vh; padding-top:2vh;}
 .btn-primary{background-color:#0041a5; font-size: 1.1rem;font-weight: 400;}
 
 #social_media{padding: 0 10%;}
-.Instagram{text-align: center;}
+.Instagram h2{text-align: center;padding: 10% 0 6%;}
+.social_media_size{}
 
 
 
