@@ -39,17 +39,18 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a id="post_school" class="nav-link" aria-current="page" href="index.html">Post School</a>
+            <a id="post_school" class="nav-link" aria-current="page" href="index.html" type="button">Post School</a>
           </li>
-          <li class="nav-item">
-            <a id="free_training" class="nav-link" aria-current="page" href="free_training.html">Free Training</a>
-          </li>
-          <li class="nav-item">
-            <a id="beginner_course" class="nav-link" aria-current="page" href="beginner_course.html">Beginner Course</a>
-          </li>
-          <li class="nav-item">
-            <a id="advance_course" class="nav-link" aria-current="page" href="advance_course.html">Advance Course</a>
-          </li>
+            <div class="dropdown">
+                <li class="nav-item dropdown">
+                  <button class="nav-item dropdown-toggle dropbtn" id="navbarDropdown" >Courses</button>
+                  <div class="dropdown-content">
+                    <a href="free_training.html">Free Training</a>
+                    <a href="beginner_course.html">Beginner's Course</a>
+                    <a href="advance_course.html">Advance Course</a>
+                  </div>
+                </li>
+            </div>
           <li class="nav-item">
             <a id="download" class="nav-link" href="download.html">Download</a>
           </li>
