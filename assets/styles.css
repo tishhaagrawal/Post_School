@@ -2,8 +2,8 @@ body{font-family:'Poppins', sans-serif;}
 h1, h2, h3, h4, h5{color:#1c4587; font-weight: bold;}
 h2{font-size: 2.5rem;font-weight: bolder;}
 h3{font-weight: bold; font-size: 1.5rem;}
-h5{font-size: 0.9rem;}
-h4{font-size: 1.2rem;}
+h5{font-size: 1.2rem;}
+h4{font-size: 1.4rem;}
 p{line-height:1.5;}
 li{line-height:2;}
 hr{margin: 1% 10%; height: 3px; background-color: grey;}
@@ -11,11 +11,12 @@ ul, ol{padding-left: 3vh; padding-top:2vh;}
 
 /* Common CSS for other pages */
 .sub_page_heading{margin: 7% auto 5%; text-align: center;font-weight: 600;font-size: 3rem;}
-.page_alignment{margin-top:5%; padding: 0 15%;}
+/* .page_alignment{margin-top:5%; padding: 0 15%;} */
 .form_new_tab{background-color: #FBF8F1; position: absolute; left: 80%; display: none;}
 .payment_btn{width: 100%; margin: 5vh 0;}
 .active{font-weight: bolder;}
 .alignment_error{padding-bottom: 25vh;}
+.content_alignment{padding: 0 13%;}
 
 
 
@@ -33,18 +34,18 @@ ul, ol{padding-left: 3vh; padding-top:2vh;}
 
 .navbar-nav{padding-top: 0;}
 .main_heading{margin: 0 auto 5%; padding-top:10%; text-align: center;font-weight: 800;font-size: 3rem;text-decoration: underline;}
-#top{background-color:#fef0e8;margin-top:5%; padding: 0 10%;}
+#top{background-color:#fef0e8;margin-top:5%;}
 .profile_picture{padding: 0;}
-.profile_picture img{max-width: 100%; max-height: 100%;padding: 3vh 0;}
+.profile_picture img{max-width: 100%; max-height: 100%; width: 23vw; padding: 3vh 0;}
 .emphasize{font-weight: bold;}
-.top-content{padding-top:3%; padding-left:3%;}
+.top-content{padding:3% 0 0 1%;}
 .top_heading{margin-bottom: 3%;}
 
 
 
 
 
-#about_course{margin: 3% 0;padding: 0 10%;}
+#about_course{margin: 3% 0;}
 .abt_course_list{padding-top:0; padding-left: 4vh;}
 .course_description p{margin-bottom:0;}
 .course_description h3{padding-bottom: 3vh; font-size: 2.5rem;}
@@ -52,39 +53,38 @@ ul, ol{padding-left: 3vh; padding-top:2vh;}
 .editing_workspace{padding:0;}
 
 
-#course_gist{margin: 3% 0;padding: 0 10%;}
+#course_gist{margin: 3% 0;}
 
 
-#outcome{margin: 3% 0;padding: 0 10%;}
+#outcome{margin: 3% 0;}
 .editing_software img{max-width: 100%;}
 .editing_software {padding: 0;}
 .outcome_content {padding-left:3%;}
 
 
-#course_typ{margin: 0.5% 0 3%; background-color:#fef0e8;padding: 0 10% 3%; }
-.course_options{padding: 4vh 0 0;}
+#course_typ{margin: 0.5% 0 3%; background-color:#fef0e8;}
 .course_typ_row{margin:0;}
 .notice{font-family:'Poppins', sans-serif;font-weight: bold; text-align: center;}
-.crash_course img{width: 95%; height: 50%;}
+.crash_course img{width: 95%; height: 50%; padding-top: 5vh;}
 .crash_course h4{padding: 3vh 0 1vh;text-align: center; margin-top: 2vh;}
-.advance img{width: 95%; height: 50%;text-align: center; }
+.advance img{width: 95%; height: 50%;padding-top: 5vh; }
 .advance h4{padding: 3vh 0 1vh; text-align: center;margin-top: 2vh;}
 .course_content_btn{margin-top: 6.5vh;}
-.training img{width: 95%; height: 65%;text-align: center;}
+.training img{width: 95%; height: 65%;padding-top: 5vh;}
 .training h4{padding: 3vh 0 1vh; text-align: center;margin-top:2vh;}
 .training p{text-align: center;}
-.download img{width: 95%; height: 65%;}
+.download img{width: 95%; height: 65%; padding-top: 5vh;}
 .download h4{padding: 3vh 0 1vh; text-align: center;margin-top:2vh;}
 .download p{text-align: center;}
 .btn-primary{background-color:#0041a5; font-size: 1.1rem;font-weight: 400;}
 
-#social_media{padding: 0 10%;}
-.Instagram h2{text-align: center;padding: 10% 0 6%;}
+/* #social_media{padding: 0 10%;} */
+.Instagram h4{text-align: center;padding: 5% 0 4%;}
 .social_media_size{}
 
 
 
-#contact_us{padding: 0 10%; margin: 6vh auto 5vh; text-align: center;}
+#contact_us{margin: 6vh auto 5vh; text-align: center;}
 .contact_us h5{font-size: 1.4rem; margin-bottom: 4vh;}
 
 #footer{background-color: #c6ddea;text-align: center; padding: 2.5% 0;}
@@ -93,11 +93,11 @@ ul, ol{padding-left: 3vh; padding-top:2vh;}
 #footer a{margin: 7vh 3vh 0; color: #1C658C; opacity: 0.8;}
 
 /* FAQ PAGE */
+.faq_content{margin-bottom: 15vh;}
 
 
 /* Free Training Page */
 .webinar_notice p{padding-top: 1.5vh;}
-.previous_content{padding: 0 15%;}
 .youtube_videos{margin: 4vh 0;}
 .google_form{padding: 2% 15%;}
 .youtube_survey{background-color:#fef0e8;padding-top: 5vh;}
@@ -107,10 +107,9 @@ ul, ol{padding-left: 3vh; padding-top:2vh;}
 /* Beginner course page */
 .beginner_course_content h4{margin-bottom:5vh;}
 .beginner_course_content ul{padding: 0;margin:1.5vh 0.7vh;}
-.know_more{padding: 0 15%;margin: 8vh 0;}
-.beginner_course_details{margin-top:5%; padding: 0 15%;}
+.beginner_course_details{margin-top:5%;}
 .beginner_course_details img{width: auto; height: auto; max-width: 100%; max-height: 100%;}
-.registeration_form {margin:5% 0 1%; padding: 0 15%;}
+.registeration_form {margin:5% 0 1%;}
 .register_beginner_course{background-color:#fef0e8;padding-top: 5vh;}
 .register_beginner_course:hover a{display:inline;}
 
@@ -119,9 +118,9 @@ ul, ol{padding-left: 3vh; padding-top:2vh;}
 .advance_course_content h4{margin-bottom:5vh;}
 .advance_course_content ul{padding: 0;margin:1.5vh 0.7vh;}
 .advance_course_details img{width: 110vh; height: 60vh; max-width: 100%; max-height: 100%;}
-.advance_course_details{margin-top:5%; padding: 0 15%;}
 
-#advance_plugins{margin: 2% 0 0; background-color:#fef0e8; padding: 2% 15% 0; text-align: center;}
+
+#advance_plugins{margin: 2% 0 0; background-color:#fef0e8;text-align: center;}
 .plugin_detail img{width: 95%; height: 65%; max-width: 100%; max-height: 100%;}
 .plugin_detail h4{padding: 1vh 0 2vh;text-align: center;font-size:1.5rem;}
 .registeration_soon{margin:5% 0; padding: 0 15%; font-style: italic;}

@@ -52,14 +52,14 @@
                 <li class="nav-item dropdown">
                   <button class="nav-item dropdown-toggle dropbtn" id="navbarDropdown" >Courses</button>
                   <div class="dropdown-content">
-                    <a href="free_training.html">Free Training</a>
-                    <a href="beginner_course.html">Beginner's Course</a>
-                    <a href="advance_course.html">Advance Course</a>
+                    <a href="free_training.html" target="_blank">Free Training</a>
+                    <a href="beginner_course.html" target="_blank">Beginner's Course</a>
+                    <a href="advance_course.html" target="_blank">Advance Course</a>
                   </div>
                 </li>
             </div>
           <li class="nav-item">
-            <a id="download" class="nav-link" href="download.html">Download</a>
+            <a id="download" class="nav-link" href="https://app.gumroad.com/spotlightco" target="_blank">Download</a>
           </li>
           <li class="nav-item">
             <a id="faq" class="nav-link" href="faq.html">FAQ</a>
@@ -74,7 +74,7 @@
 
   <h1 class="main_heading" id="demo">Post School</h1>
   <section id="top">
-    <div class="container-fluid">
+    <div class="container-fluid content_alignment">
       <div class="row">
         <div class="col-md-4 profile_picture">
           <img src="assets\images\profile_picture.jpeg" alt="Aniket-photograph">
@@ -92,7 +92,7 @@
   </section>
 
   <section id="about_course">
-    <div class="container-fluid">
+    <div class="container-fluid content_alignment">
       <div class="row">
         <div class="col-md-8 course_description">
           <h3>Roadmap</h3>
@@ -112,7 +112,7 @@
   </section>
 
   <section id="course_gist">
-    <div class="container-fluid">
+    <div class="container-fluid content_alignment">
       <div class="row">
         <div class="col-lg-4 col-md-6">
           <h5>You should enroll if:</h5>
@@ -144,7 +144,7 @@
   </section>
 
   <section id="outcome">
-    <div class="container-fluid">
+    <div class="container-fluid content_alignment">
       <div class="row">
         <div class="col-md-4 editing_software">
           <img src="assets/images/outcome.jpg" alt="Video-Editing-Software">
@@ -167,7 +167,7 @@
   <hr>
 
   <section id="course_typ">
-    <div class="container-fluid course_options">
+    <div class="container-fluid content_alignment">
       <div class="row course_typ_row">
         <div class="col-md-6 crash_course">
           <img src="assets/images/crash_course.jpg" alt="Crash-Course">
@@ -220,23 +220,25 @@
   </section>
 
   <section id="social_media">
-    <div class="container-fluid">
+    <div class="container-fluid content_alignment">
       <div class="row">
         <div class="Instagram">
-          <h2>Checkout or Follow us on Instagram</h2>
-          <div class="embedsocial-hashtag social_media_size" data-ref="8ff544689c21f053c767e9c8315ac4dd62524a9b"></div>
-          <script id="insta">
-            (function(d, s, id) {
-              var js;
-              if (d.getElementById(id)) {
-                return;
-              }
-              js = d.createElement(s);
-              js.id = id;
-              js.src = "https://embedsocial.com/cdn/ht.js";
-              d.getElementsByTagName("head")[0].appendChild(js);
-            }(document, "script", "EmbedSocialHashtagScript"));
-          </script>
+          <h4>Checkout or Follow us on Instagram</h4>
+          <div class="embedded_insta" style="max-height: 60vh; overflow: auto;">
+            <div class="embedsocial-hashtag social_media_size" data-ref="8ff544689c21f053c767e9c8315ac4dd62524a9b"></div>
+            <script id="insta">
+              (function(d, s, id) {
+                var js;
+                if (d.getElementById(id)) {
+                  return;
+                }
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "https://embedsocial.com/cdn/ht.js";
+                d.getElementsByTagName("head")[0].appendChild(js);
+              }(document, "script", "EmbedSocialHashtagScript"));
+            </script>
+          </div>
         </div>
       </div>
     </div>
