@@ -11,7 +11,7 @@
 <section class="">
   <div class="container-fluid content_alignment">
     <div class="row">
-      <div class="col-lg-6 webinar_notice">
+      <div class="col-lg-5 webinar_notice">
         <h5>Check & register for upcoming webinars here</h5>
         <p>If you missed any of previous ones, don't worry, you can find them below, just sign up so that you don't miss any future classes & new announcements.</p>
       </div>

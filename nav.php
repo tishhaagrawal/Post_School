@@ -22,14 +22,14 @@
           </li>
         </div>
         <li class="nav-item">
-          <a id="download" class="nav-link" href="https://app.gumroad.com/spotlightco" >Download</a>
+          <a id="download" class="nav-link" href="https://app.gumroad.com/spotlightco" target="_blank" >Download</a>
         </li>
         <li class="nav-item">
           <a id="faq" class="nav-link" href="faq.php">FAQ</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a id="search" class="nav-link" href="#" type="button"><i class="fa-solid fa-magnifying-glass"></i></a>
-        </li>
+        </li> -->
       </ul>
     </div>
   </div>

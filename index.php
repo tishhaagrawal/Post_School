@@ -33,49 +33,16 @@
     <div class="container-fluid content_alignment">
       <div class="row">
         <div class="col-md-8 course_description">
-          <h3>Roadmap</h3>
-          <p>We provide the roadmap to start your journey as a video colorist and/or an editor. The course is designed for an experience level of both a beginner in this industry.
-          </p>
+          <h2>Roadmap</h2>
+          <p>We provide the roadmap to start or enhance your journey as a video colorist and/or an editor, in the industry.</p>
           <ul type="square" class="abt_course_list">
-            <li>We provide real-life examples and <span class="emphasize"> film footage to work on</span>.</li>
             <li><span class="emphasize">30 hours of guided content.</span>.</li>
-            <li>You can start working on gigs just after you complete the beginner's content.</li>
+            <li>Work on real-life examples and<span class="emphasize"> film footage.</span></li>
+            <li>Start working just after you complete the <a href="beginner_course.php">crash course</a> and leave your creative footprints across the globe.</li>
           </ul>
         </div>
         <div class="col-md-4 editing_workspace">
           <img src="assets/images/editing.jpg" alt="Editing-Workspace">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="course_gist">
-    <div class="container-fluid content_alignment">
-      <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <h5>You should enroll if:</h5>
-          <ul type="square">
-            <li>You <span class="emphasize"> desire your career</span> in the creative industry.</li>
-            <li>You desire an <span class="emphasize">insight into industry</span> standards/requirements.</li>
-            <li>You wish to <span class="emphasize">explore this field</span>.</li>
-          </ul>
-        </div>
-        <div class="col-lg-4 col-md-6 gist-yt">
-          <h5>Why it is better than YT:</h5>
-          <ul type="square">
-            <li>You get <span class="emphasize"> personalized Q&A</span></li>
-            <li>You can reach out to me for <span class="emphasize">tailored advice</span>.</li>
-            <li>Get your work/practice footage curated.</li>
-            <li>You can be part of an <span class="emphasize">ever-growing community</span>.</li>
-          </ul>
-        </div>
-        <div class="col-lg-4">
-          <h5>Eligibility:</h5>
-          <ul type="square">
-            <li>Eagerness to learn.</li>
-            <li>A computer to follow along.</li>
-            <li>An internet connection.</li>
-          </ul>
         </div>
       </div>
     </div>
@@ -93,9 +60,38 @@
             email marketing, LinkedIn reach, freelancing platforms, word of mouth etc.
             You'll be eligible to work on advertisements for businesses, media content for social media influencers,
             editing and color grading for music videos, short films, web series, films etc.</p>
-          <h3>Why do you need to learn this?</h3>
-          <p>It's needed <span class="emphasize">EVERYWHERE</span>. With the world shifting towards web-based content and remote working,
-            mastering a skill set that everyone needs is the answer to the above question.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="course_gist">
+    <div class="container-fluid content_alignment">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <h5>You should enroll if:</h5>
+          <ul type="square">
+            <li>You <span class="emphasize"> desire your career</span> in the creative industry.</li>
+            <li>You desire an <span class="emphasize">insight into industry</span> standards/requirements.</li>
+            <li>You wish to <span class="emphasize">explore this field</span>.</li>
+          </ul>
+        </div>
+        <div class="col-lg-5 col-md-6 gist-yt">
+          <h5>Why it is better than YT:</h5>
+          <ul type="square">
+            <li>This is an <span class="emphasize">accelerated</span> course.</li>
+            <li>Practice on projects, get them reviewed and corrected <span class="emphasize">personally</span>.</li>
+            <li>Get your work/practice footage curated.</li>
+            <li>You get to be a part of an <span class="emphasize">ever-growing community that helps you build creative momentum</span>.</li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h5>Eligibility:</h5>
+          <ul type="square">
+            <li>Eagerness to learn.</li>
+            <li>A computer to follow along.</li>
+            <li>An internet connection.</li>
+          </ul>
         </div>
       </div>
     </div>
