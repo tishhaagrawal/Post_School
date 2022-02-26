@@ -1,76 +1,14 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-  <!-- JavaScript files -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-  <!-- font families -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;0,900;1,200;1,300&display=swap" rel="stylesheet">
-
-
+<?php include 'header.php'; ?>
   <title>Post School</title>
-
-  <!-- styleshee -->
-  <link rel="stylesheet" href="assets/styles.css">
-
-  <!-- icons -->
-  <link rel="icon" href="assets/images/favicon.ico">
-  <script src="https://kit.fontawesome.com/1f4df134e8.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <!-- <section class="join_now_promt fixed-top">
     <p>Admissions to Beginner Course is now open. Enroll fast & reserve your seat in upcoming batch.
-      <a href="beginner_course.html" class="btn btn-outline-dark join_now" type="button" name="button">Join Now</a>
+      <a href="beginner_course.php" class="btn btn-outline-dark join_now" type="button" name="button">Join Now</a>
     </p>
   </section> -->
-
-  <nav class="shadow-sm navbar navbar-expand-lg navbar-light fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand logo" href="index.html">
-        <img class="d-inline-block align-text-top" src="assets/images/Post-School_logo.jpg" alt="" width="35" height="30">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a id="post_school" class="nav-link" aria-current="page" href="index.html" type="button">Post School</a>
-          </li>
-            <div class="dropdown">
-                <li class="nav-item dropdown">
-                  <button class="nav-item dropdown-toggle dropbtn" id="navbarDropdown" >Courses</button>
-                  <div class="dropdown-content">
-                    <a href="free_training.html" target="_blank">Free Training</a>
-                    <a href="beginner_course.html" target="_blank">Beginner's Course</a>
-                    <a href="advance_course.html" target="_blank">Advance Course</a>
-                  </div>
-                </li>
-            </div>
-          <li class="nav-item">
-            <a id="download" class="nav-link" href="https://app.gumroad.com/spotlightco" target="_blank">Download</a>
-          </li>
-          <li class="nav-item">
-            <a id="faq" class="nav-link" href="faq.html">FAQ</a>
-          </li>
-          <li class="nav-item">
-            <a id="search" class="nav-link" href="#" type="button"><i class="fa-solid fa-magnifying-glass"></i></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <?php include 'nav.php'; ?>
 
   <h1 class="main_heading" id="demo">Post School</h1>
   <section id="top">
@@ -155,7 +93,6 @@
             email marketing, LinkedIn reach, freelancing platforms, word of mouth etc.
             You'll be eligible to work on advertisements for businesses, media content for social media influencers,
             editing and color grading for music videos, short films, web series, films etc.</p>
-
           <h3>Why do you need to learn this?</h3>
           <p>It's needed <span class="emphasize">EVERYWHERE</span>. With the world shifting towards web-based content and remote working,
             mastering a skill set that everyone needs is the answer to the above question.</p>
@@ -179,7 +116,7 @@
               start your journey in the industry and will learn to work on DaVinci Resolve, a fast-catching, industry-standard software</li>
           </ul>
           <div class="d-grid gap-2 alignment_error">
-            <a class="btn btn-primary" href="beginner_course.html" role="button" target="_blank">Join Course</a>
+            <a class="btn btn-primary" href="beginner_course.php" role="button" target="_blank">Join Course</a>
             <p class="notice">REGISTRATIONS OPEN</p>
           </div>
         </div>
@@ -193,7 +130,7 @@
             <li>Understand the basics of color managed image processing pipeline</li>
           </ul>
           <div class="d-grid gap-2 course_content_btn alignment_error">
-            <a class="btn btn-primary" href="advance_course.html" role="button" target="_blank">See Course Content</a>
+            <a class="btn btn-primary" href="advance_course.php" role="button" target="_blank">See Course Content</a>
             <p class="notice">REGISTRATION WILL START SOON</p>
           </div>
         </div>
@@ -204,7 +141,7 @@
           <h4>Free Training</h4>
           <p>Check here for upcoming free training & webinar</p>
           <div class="d-grid gap-2 alignment_error">
-            <a class="btn btn-primary" href="free_training.html" role="button" target="_blank">Watch</a>
+            <a class="btn btn-primary" href="free_training.php" role="button" target="_blank">Watch</a>
           </div>
         </div>
         <div class="col-md-6 download">
@@ -212,7 +149,7 @@
           <h4>Free Download</h4>
           <p>Hacks, plugins & shortcuts, all free to download</p>
           <div class="d-grid gap-2 alignment_error">
-            <a class="btn btn-primary" href="download.html" role="button" target="_blank">Get</a>
+            <a class="btn btn-primary" href="download.php" role="button" target="_blank">Get</a>
           </div>
         </div>
       </div>
@@ -224,8 +161,8 @@
       <div class="row">
         <div class="Instagram">
           <h4>Checkout or Follow us on Instagram</h4>
-          <div class="embedded_insta" style="max-height: 60vh; overflow: auto;">
-            <div class="embedsocial-hashtag social_media_size" data-ref="8ff544689c21f053c767e9c8315ac4dd62524a9b"></div>
+          <div class="embedded_insta">
+            <div class="embedsocial-hashtag" data-ref="8ff544689c21f053c767e9c8315ac4dd62524a9b"></div>
             <script id="insta">
               (function(d, s, id) {
                 var js;
@@ -249,25 +186,4 @@
     <p class="contact_mail">Send us your queries at <a href="mailto:endcredits.spotlight@gmail.com">endcredits.spotlight@gmail.com</a>. We'll be happy to assist you.</p>
   </section>
 
-  <section id="footer">
-    <p class="end_line">Being an Editor is easy. It's like riding a bike. Except the bike is on fire. You're on fire. Everything is on fire.</p>
-    <p class="closure">SPOTLIGHT © 2022</p>
-    <a class="social_media_icons" href="https://www.youtube.com/c/AniketBhattacharjee"> <i class="fa-brands fa-youtube"></i></a>
-    <a class="social_media_icons" href="https://www.linkedin.com/company/post-school/?viewAsMember=true"> <i class="fa-brands fa-linkedin"></i></a>
-    <a class="social_media_icons" href="https://www.instagram.com/rec2020.colorist/"> <i class="fa-brands fa-instagram-square"></i></a>
-
-
-  </section>
-  <!-- Optional JavaScript; choose one of the two! -->
-
-  <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      document.getElementById("post_school").classList.add("active");
-    });
-  </script>
-
-</body>
-
-</html>
+  <?php include 'footer.php'; ?>

@@ -80,7 +80,7 @@ ul, ol{padding-left: 3vh; padding-top:2vh;}
 
 /* #social_media{padding: 0 10%;} */
 .Instagram h4{text-align: center;padding: 5% 0 4%;}
-.social_media_size{}
+.embedded_insta{max-height: 60vh; overflow: auto;}
 
 
 
