@@ -8,7 +8,7 @@
 
   <h1 class="sub_page_heading">Beginner's Course</h1>
 
-  <section class="beginner_course_content">
+  <section class="course_content">
     <div class="container-fluid content_alignment">
       <h4>Overview:</h4>
       <div class="row">
@@ -31,7 +31,7 @@
   </section>
   <h5 class="content_alignment">If you want to know all the above or you wanna get a better understanding without the difficult jargons, Join the course.</h5>
 
-  <section class="beginner_course_details">
+  <section class="course_details">
     <div class="container-fluid content_alignment">
       <div class="row">
         <div class="col-lg-4">
@@ -63,7 +63,7 @@
           </ul>
         </div>
         <div class="col-lg-4 ">
-          <img src="assets/images/beginners_course.jpg" alt="Beginner_Course">
+          <img class="beginner_image" src="assets/images/beginners_course.jpg" alt="Beginner_Course">
           <ul type="square" class="">
             <li>To avail the money back, you can email or DM me to explain your dissatisfaction.</li>
             <li>On processing, you'll receive the full amount via same UPI ID. </li>

@@ -36,7 +36,7 @@
           <h2>Roadmap</h2>
           <p>We provide the roadmap to start or enhance your journey as a video colorist and/or an editor, in the industry.</p>
           <ul type="square" class="abt_course_list">
-            <li><span class="emphasize">30 hours of guided content.</span>.</li>
+            <li><span class="emphasize">30 hours of guided content</span>.</li>
             <li>Work on real-life examples and<span class="emphasize"> film footage.</span></li>
             <li>Start working just after you complete the <a href="beginner_course.php">crash course</a> and leave your creative footprints across the globe.</li>
           </ul>

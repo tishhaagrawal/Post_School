@@ -6,7 +6,7 @@
   <?php include 'nav.php'; ?>
 
   <h1 class="sub_page_heading">Advance Course</h1>
-  <section class="advance_course_content">
+  <section class="course_content">
     <div class="container-fluid content_alignment">
       <h4>Overview:</h4>
       <div class="row">
@@ -27,17 +27,17 @@
       </div>
     </div>
   </section>
-  <h5 class="know_more">If you want to know all the above or you wanna get a better understanding without the difficult jargons, Join the course.</h5>
+  <h5 class="content_alignment">If you want to know all the above or you wanna get a better understanding without the difficult jargons, Join the course.</h5>
 
-  <section class="advance_course_details">
+  <section class="course_details">
     <div class="container-fluid content_alignment">
       <div class="row">
         <div class="col-lg-5 ">
-          <img src="assets/images/advance_course.jpg" alt="advance_course">
+          <img class="advance_image" src="assets/images/advance_course.jpg" alt="advance_course">
         </div>
         <div class="col-lg-7">
           <h4>Topics to be covered:</h4>
-          <ul type="square" class="">
+          <ul type="square">
             <li>Understanding Color Science</li>
             <li>Understanding Color Management</li>
             <li>Learning to use Academy Color Encoding System & DaVinci Color Management</li>
